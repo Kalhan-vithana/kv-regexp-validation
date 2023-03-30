@@ -1,6 +1,6 @@
 {
   "name": "kv-regexp-validation",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This module can  validate regex with customize options . ",
   "main": "index.js",
   "scripts": {
