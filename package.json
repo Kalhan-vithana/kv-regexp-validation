@@ -1,0 +1,19 @@
+{
+  "name": "kv-regexp-validation",
+  "version": "1.0.0",
+  "description": "This module can  validate regex with customize options . ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kalhan-vithana/Kalhan-vithana-kv-regexp-validation.git"
+  },
+  "author": "Kalhan Vithana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kalhan-vithana/Kalhan-vithana-kv-regexp-validation/issues"
+  },
+  "homepage": "https://github.com/Kalhan-vithana/Kalhan-vithana-kv-regexp-validation#readme"
+}
