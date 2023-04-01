@@ -8,8 +8,39 @@ JavaScript library provides user to custom their regex validation.
 npm install kv-regexp-validation
 ```
 
+## Usage 
+
 ```JS
 const regxValidator = require('kv-regexp-validation');
+ regxValidator.RegexCSTValidator(String,[option]);
+ regxValidator.RegexEMValidator(String);
+
+```
+
+### Configuration options
+Below are the default values for the configuration
+
+```JS
+       [{
+        min:1,
+        max:1,
+        leastOneletter:false,
+        leastOneNumber:false,
+        leastOnecharacter:false,
+        leastOneLowerCaseletter:false,
+        leastOneUpperCaseletter:false,
+        leastOneSpecialcharacter:false
+        
+        }]
+```
+
+### Configuration options
+```JS
+const regxValidator = require('kv-regexp-validation');
+
+```
+
+### Example
 
 // User can customize their strings given conditions
 let customizeString = regxValidator.RegexCSTValidator("ex1",[ {
@@ -24,7 +55,7 @@ let customizeString = regxValidator.RegexCSTValidator("ex1",[ {
 
 }]);
 
-// validate email 
+// Validate email 
 let validateEmail = regxValidator.RegexEMValidator("admin@gmail.com");
 
 //console.log(customizeString)
