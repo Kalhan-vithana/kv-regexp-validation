@@ -9,7 +9,7 @@ npm install kv-regexp-validation
 ```
 
 ```JS
-const regxValidator = require('@kv/regexp-validation');
+const regxValidator = require('kv-regexp-validation');
 regxValidator.RegexCSTValidator("ex1",[ {
     min:1,
     max:4,
