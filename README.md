@@ -1,7 +1,7 @@
 # kv-regexp-validation
 
 ## Introduction 
-JavaScript library provides users to custom regex validation.
+JavaScript library provides user to custom their regex validation.
 
 ## Installation
 ```  
@@ -12,7 +12,7 @@ npm install kv-regexp-validation
 const regxValidator = require('kv-regexp-validation');
 
 // User can customize their strings given conditions
-regxValidator.RegexCSTValidator("ex1",[ {
+let customizeString = regxValidator.RegexCSTValidator("ex1",[ {
     min:1,
     max:4,
     leastOneletter:true,
@@ -24,8 +24,11 @@ regxValidator.RegexCSTValidator("ex1",[ {
 
 }]);
 
-<!--  validate email    -->
-regxValidator.RegexEMValidator("admin@gmail.com");
+// validate email 
+let validateEmail = regxValidator.RegexEMValidator("admin@gmail.com");
+
+//console.log(customizeString)
+//console.log(validateEmail)
 ```
 
 ## Contribute
