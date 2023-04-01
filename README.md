@@ -12,8 +12,8 @@ npm install kv-regexp-validation
 
 ```JS
 const regxValidator = require('kv-regexp-validation');
- regxValidator.RegexCSTValidator(String,[option]);
- regxValidator.RegexEMValidator(String);
+      regxValidator.RegexCSTValidator(String,[option]);
+      regxValidator.RegexEMValidator(String);
 
 ```
 Passed the string  to the first parameter,second parameter is optional one that can be use for customize 
@@ -40,6 +40,8 @@ Below are the default values for the configuration parameter.
 ### Examples
 
 ```JS
+const regxValidator = require('kv-regexp-validation');
+
 // User can customize their strings given conditions
 let customizeString = regxValidator.RegexCSTValidator("ex1",[ {
     min:1,
