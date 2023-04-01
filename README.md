@@ -34,12 +34,6 @@ Below are the default values for the configuration
         }]
 ```
 
-### Configuration options
-```JS
-const regxValidator = require('kv-regexp-validation');
-
-```
-
 ### Example
 
 // User can customize their strings given conditions
