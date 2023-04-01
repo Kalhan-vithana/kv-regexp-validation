@@ -16,9 +16,12 @@ const regxValidator = require('kv-regexp-validation');
  regxValidator.RegexEMValidator(String);
 
 ```
+Passed the string  to the first parameter,second parameter is optional one that can be use for customize 
+regex conditons.
+
 
 ### Configuration options
-Below are the default values for the configuration
+Below are the default values for the configuration parameter.
 
 ```JS
        [{
@@ -34,8 +37,9 @@ Below are the default values for the configuration
         }]
 ```
 
-### Example
+### Examples
 
+```JS
 // User can customize their strings given conditions
 let customizeString = regxValidator.RegexCSTValidator("ex1",[ {
     min:1,
