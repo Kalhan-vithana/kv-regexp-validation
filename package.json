@@ -1,5 +1,5 @@
 {
-  "name": "@kv/regexp-validation",
+  "name": "kv-regexp-validation",
   "version": "1.0.0",
   "description": "This module can  validate regex with customize options . ",
   "main": "index.js",
