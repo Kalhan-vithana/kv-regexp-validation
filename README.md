@@ -16,7 +16,7 @@ const regxValidator = require('kv-regexp-validation');
       regxValidator.RegexEMValidator(String);
 
 ```
-Passed the string  to the first parameter,second parameter is optional one that can be use for customize 
+Passed the string  to the first argument,second argument is optional one that can be use for customize 
 regex conditons.
 
 
