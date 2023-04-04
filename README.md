@@ -14,10 +14,17 @@ npm install kv-regexp-validation
 const regxValidator = require('kv-regexp-validation');
       regxValidator.RegexCSTValidator(String,[option]);
       regxValidator.RegexEMValidator(String);
+      regxValidator.RegexSTRCaseValidator(caseString,String);
 
 ```
+RegexCSTValidator is  ability  to customized regex validation using configurable level.
 Passed the string  to the first argument,second argument is optional one that can be use for customize 
 regex conditons.
+
+RegexEMValidator is ability to  validate  emails.
+
+RegexSTRCaseValidator  is match whole word with case.Passed the  case string to the first argument and passed
+the second argument as a string for validate with case string. 
 
 
 ### Configuration options
@@ -42,7 +49,7 @@ Below are the default values for the configuration parameter.
 ```JS
 const regxValidator = require('kv-regexp-validation');
 
-// User can customize their strings given conditions
+// Customize  strings using given conditions
 let customizeString = regxValidator.RegexCSTValidator("ex1",[ {
     min:1,
     max:4,
