@@ -17,7 +17,7 @@ const regxValidator = require('kv-regexp-validation');
       regxValidator.RegexSTRCaseValidator(caseString,String);
 
 ```
-**RegexCSTValidator** is  ability  to customized regex validation using configurable level.
+**RegexCSTValidator** is  ability  to customize regex validation using configurable level.
 Passed the string  to the first argument,second argument is optional one that can be use for customize 
 regex conditons.
 
