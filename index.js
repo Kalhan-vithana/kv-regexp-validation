@@ -1,5 +1,7 @@
 const RegexValidator = {
-  RegexCSTValidator: (intput,mt = [
+  RegexCSTValidator: (
+    intput,
+    mt = [
       {
         min: 1,
         max: 1,
@@ -27,13 +29,11 @@ const RegexValidator = {
 
   RegexEMValidator: (input) => {
     let regex = /^\w+@\w+\.\w{2,3}$/;
-
     return regex.test(input);
   },
 
   RegexSTRCaseValidator: (caseString = "", input = "") => {
     let regex = new RegExp("\\b" + caseString + "\\b");
-
     return regex.test(input);
   },
 };
