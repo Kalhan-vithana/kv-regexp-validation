@@ -27,6 +27,15 @@ const  RegexValidator =  {
        return regex.test(input)
     },
 
+    RegexSTRCaseValidator :(caseString,input)=>{
+        
+        let regex = new RegExp("\\b" + caseString + "\\b")
+        
+        return regex.test(input)
+    }
+
+
+
 }
 
 module.exports = RegexValidator;
