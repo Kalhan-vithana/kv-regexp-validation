@@ -67,8 +67,22 @@ let customizeString = regxValidator.RegexCSTValidator("ex1",[ {
 // Validate email 
 let validateEmail = regxValidator.RegexEMValidator("admin@gmail.com");
 
-//console.log(customizeString)
-//console.log(validateEmail)
+console.log(customizeString) //true
+console.log(validateEmail)  //true
+
+// Validate whole String with Case .
+
+let example_1= 'https://example.com/Template/Edit/'
+let example_2= 'https://example.com/TemplateChapter/Edit/1ddae88c-55dc-484c-adbc-c34bbc29544f'
+
+
+
+let caseValidate_ex1 =regxValidator.RegexSTRCaseValidator("Template",example_1)
+let caseValidate_ex2 =regxValidator.RegexSTRCaseValidator("Template",example_2)
+
+console.log(caseValidate_ex1) //true
+console.log(caseValidate_ex2); //false because match with whole case 'Template'
+
 ```
 
 ## Contribute
