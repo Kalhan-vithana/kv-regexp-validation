@@ -71,11 +71,8 @@ console.log(customizeString) //true
 console.log(validateEmail)  //true
 
 // Validate whole String with Case .
-
 let example_1= 'https://example.com/Template/Edit/'
 let example_2= 'https://example.com/TemplateChapter/Edit/1ddae88c-55dc-484c-adbc-c34bbc29544f'
-
-
 
 let caseValidate_ex1 =regxValidator.RegexSTRCaseValidator("Template",example_1)
 let caseValidate_ex2 =regxValidator.RegexSTRCaseValidator("Template",example_2)
