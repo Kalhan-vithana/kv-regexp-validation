@@ -17,17 +17,19 @@ const regxValidator = require('kv-regexp-validation');
       regxValidator.RegexSTRCaseValidator(caseString,String);
 
 ```
-RegexCSTValidator is  ability  to customized regex validation using configurable level.
+**RegexCSTValidator** is  ability  to customized regex validation using configurable level.
 Passed the string  to the first argument,second argument is optional one that can be use for customize 
 regex conditons.
 
-RegexEMValidator is ability to  validate  emails.
+**RegexEMValidator** is ability to  validate  emails.
 
-RegexSTRCaseValidator  is match whole word with case.Passed the  case string to the first argument and passed
+**RegexSTRCaseValidator**  is match whole word with case.Passed the  case string to the first argument and passed
 the second argument as a string for validate with case string. 
 
 
 ### Configuration options
+
+**RegexCSTValidator**
 Below are the default values for the configuration parameter.
 
 ```JS
