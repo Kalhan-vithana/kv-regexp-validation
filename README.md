@@ -19,7 +19,7 @@ const regxValidator = require('kv-regexp-validation');
 ```
 **RegexCSTValidator** is  ability  to customize regex validation using configurable level.
 Passed the string  to the first argument,second argument is optional one that can be use for customize 
-regex conditons.
+regex conditions.
 
 **RegexEMValidator** is ability to  validate  emails.
 
@@ -64,10 +64,11 @@ let customizeString = regxValidator.RegexCSTValidator("ex1",[ {
 
 }]);
 
+console.log(customizeString) //true
+
 // Validate email 
 let validateEmail = regxValidator.RegexEMValidator("admin@gmail.com");
 
-console.log(customizeString) //true
 console.log(validateEmail)  //true
 
 // Validate whole String with Case .
